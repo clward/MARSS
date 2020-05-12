@@ -93,7 +93,7 @@ MARSS.dfa <- function(MARSS.call) {
   model.allowed <- list(
     # if it is a length 1 vector then the value must be one of these.  All elements in your model list must be here
     A = c("unequal", "zero"),
-    R = c("identity", "zero", "unconstrained", "diagonal and unequal", "diagonal and equal", "equalvarcov"),
+    #R = c("identity", "zero", "unconstrained", "diagonal and unequal", "diagonal and equal", "equalvarcov"),
     D = c("identity", "zero", "unconstrained", "diagonal and unequal", "diagonal and equal", "equalvarcov"),
     x0 = c("unconstrained", "unequal", "zero"),
     B = c("identity", "diagonal and equal", "diagonal and unequal"),
